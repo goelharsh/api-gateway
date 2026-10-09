@@ -5,7 +5,6 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 
-const require = createRequire(import.meta.url);
 
 export default tseslint.config(
   {
